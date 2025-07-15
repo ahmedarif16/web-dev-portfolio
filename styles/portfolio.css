@@ -73,14 +73,15 @@ nav ul{
 }
 .banner-tittle{
     font-weight:bold;
-    font-size:85px ;
+    font-size:65px ;
 }
 .banner-description{
     font-size: 18px;
     color: #474747;
 }
 .banner-head-pic{
-    width: 580px;
+    width: 600px;
+
 }
 .banner{
     display: flex;
