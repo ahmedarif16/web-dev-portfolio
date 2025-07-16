@@ -182,10 +182,11 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     margin-bottom: 24px;
     border: none;
     box-shadow: 5px 5px 10px #757575;
+    color: #FD6E0A;
 }
 ::placeholder{
     color: #FD6E0A;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:cursive;
 }
 button:hover{
     background-color: #757575;
@@ -193,7 +194,13 @@ button:hover{
 submit:hover{
     background-color: #757575;
 }
-input:focus{
+textarea:focus {
     outline: 0;
-    border:2px solid #FD6E0A;
+    border:3px solid #FD6E0A;
+    border-radius: 10px;
+}
+.inbox:focus{
+    outline: 0;
+    border: 3px solid #FD6E0A;
+    border-radius: 10px;
 }
